@@ -8,7 +8,7 @@ import unicodedata
 def render_dashboard(readings):
 
   site_title = "Wikidata Bibtex"
-  site_subtitle = ''' Demonstration '''
+  site_subtitle = ''' Demonstration'''
 
   url1 = get_query_url_for_articles(readings)
   url1_legend = "Articles in the bibtex file"
