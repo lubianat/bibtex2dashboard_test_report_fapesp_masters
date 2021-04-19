@@ -50,6 +50,9 @@ Next, push your cloned demonstration database:
 ```sh
 git push --set-upstream origin main
 ```
+
+Finally, go to the repository GitHub Pages on the repository settings on GitHub to the `main` branch 
+
 ** README and Database updates
 
 Update `README.md`  and `wbib.py` files to reference your new repository:
@@ -73,7 +76,6 @@ git add .
 git commit -m "setup: Add bibtex and personalize the dashboard"
 git push
 ```
-- Set GitHub Pages on the repository settings on GitHub to the `main` branch 
 
 ## Acknowledgements
 
