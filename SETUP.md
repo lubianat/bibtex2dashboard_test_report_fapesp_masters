@@ -67,7 +67,12 @@ sed "s/lubianat/$OWNER/g" README.md > tmp && mv -f tmp README.md
   - If using BibTex Tidy, just tick the "Merge duplicate entries" box and click on "Tidy"
 - Customize `wbib/wbib.py` with your title of your web page (variables inside the function "render_dashboard").
 - Run `python3 update_dashboard.py yourbibfile.bib`
-- Commit and push everything to GitHub (or just check the newly generated index.html file)
+- Commit and push everything to GitHub (or just check the newly generated index.html file):
+```sh
+git add .
+git commit -m "setup: Add bibtex and personalize the dashboard"
+git push
+```
 - Set GitHub Pages on the repository settings on GitHub to the `main` branch 
 
 ## Acknowledgements
