@@ -64,8 +64,8 @@ sed "s/lubianat/$OWNER/g" README.md > tmp && mv -f tmp README.md
 
 - Add your.bib file with less than 500 articles (more than that and it might break) to the repository 
 - Set GitHub Pages on the repository settings on GitHub to the `main` branch 
-- Customize `render_dashboard.py` with your title of your web page.
-- Run `python3 render_dashboard.py yourbibfile.bib`
+- Customize `update_dashboard.py` with your title of your web page.
+- Run `python3 update_dashboard.py yourbibfile.bib`
 - Commit and push everything to GitHub (or just check the newly generated index.html file)
 
 ## Acknowledgements
