@@ -63,10 +63,12 @@ sed "s/lubianat/$OWNER/g" README.md > tmp && mv -f tmp README.md
 ```
 
 - Add your.bib file with less than 500 articles (more than that and it might break) to the repository 
-- Set GitHub Pages on the repository settings on GitHub to the `main` branch 
-- Customize `render_dashboard.py` with your title of your web page.
-- Run `python3 render_dashboard.py yourbibfile.bib`
+  - If it contains duplicates, you'll need to clean up with a tool like [BibTex Tidy](https://flamingtempura.github.io/bibtex-tidy/) before continueing the setup.
+  - If using BibTex Tidy, just tick the "Merge duplicate entries" box and click on "Tidy"
+- Customize `wbib/wbib.py` with your title of your web page (variables inside the function "render_dashboard").
+- Run `python3 update_dashboard.py yourbibfile.bib`
 - Commit and push everything to GitHub (or just check the newly generated index.html file)
+- Set GitHub Pages on the repository settings on GitHub to the `main` branch 
 
 ## Acknowledgements
 
