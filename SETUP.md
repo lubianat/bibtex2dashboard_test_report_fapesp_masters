@@ -61,8 +61,6 @@ Update `README.md`  and `wbib.py` files to reference your new repository:
 # Perform substitutions
 sed "s/lubianat\/bibtex2dashboard/$OWNER\/$REPO/g" README.md > tmp && mv -f tmp README.md
 sed "s/lubianat\.github\.io\/bibtex2dashboard/$OWNER\.github\.io\/$REPO/g" README.md > tmp && mv -f tmp README.md
-sed "s/lubianat\/bibtex2dashboard/$OWNER\/$REPO/g" wbib/wbib.py > tmp && mv -f tmp wbib/wbib.py
-sed "s/lubianat/$OWNER/g" README.md > tmp && mv -f tmp README.md
 ```
 
 - Add your.bib file with less than 500 articles (more than that and it might break) to the repository 
