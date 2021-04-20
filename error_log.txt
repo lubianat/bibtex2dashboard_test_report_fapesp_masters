@@ -1,5 +1,12 @@
 Titles that were not found on Wikidata: 
-Reconstructing lineage hierarchies of the distal lung epithelium using single-cell RNA-seq. - PubMed - NCBI
-The Sp1-Related Transcription Factors sp5 and sp5-like Act Downstream of Wnt/$\beta$-Catenin Signaling in Mesoderm and Neuroectoderm Patterning
-UMAP does not preserve global structure any better than t-SNE when using the same initialization
-Gene co-expression analysis for functional classification and gene--disease predictions
+A draft network of ligand--receptor-mediated multicellular signalling in human
+The adapter protein LAT enhances Fc$\gamma$ receptor-mediated signal transduction in myeloid cells
+Impaired B-lymphopoiesis, myelopoiesis, and derailed cerebellar neuron migration in CXCR4-and SDF-1-deficient mice
+Presenilin-dependent intramembrane proteolysis of CD44 leads to the liberation of its intracellular domain and the secretion of an A$\beta$-like peptide
+CXCR4-activated astrocyte glutamate release via TNF$\alpha$: amplification by microglia triggers neurotoxicity
+FCBF: Fast Correlation Based Filter for Feature Selection
+Feature selection for high-dimensional data: A fast correlation-based filter solution
+Single Cell Gene Expression Datasets
+Transcript profiling of CD 16-positive monocytes reveals a unique molecular fingerprint
+Science Family skills: An Alexa Assistant Tailored for Laboratory Routine
+Interferons up-regulate STAT1, STAT2, and IRF family transcription factor gene expression in human peripheral blood mononuclear cells and macrophages.
