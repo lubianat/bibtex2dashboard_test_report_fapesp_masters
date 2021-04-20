@@ -51,7 +51,7 @@ Next, push your cloned demonstration database:
 git push --set-upstream origin main
 ```
 
-- Set GitHub Pages on the repository settings on GitHub to the `main` branch 
+Finally, go to the repository GitHub Pages on the repository settings on GitHub to the `main` branch 
 
 ** README and Database updates
 
