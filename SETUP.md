@@ -50,6 +50,9 @@ Next, push your cloned demonstration database:
 ```sh
 git push --set-upstream origin main
 ```
+
+- Set GitHub Pages on the repository settings on GitHub to the `main` branch 
+
 ** README and Database updates
 
 Update `README.md`  and `wbib.py` files to reference your new repository:
@@ -65,10 +68,15 @@ sed "s/lubianat/$OWNER/g" README.md > tmp && mv -f tmp README.md
 - Add your.bib file with less than 500 articles (more than that and it might break) to the repository 
   - If it contains duplicates, you'll need to clean up with a tool like [BibTex Tidy](https://flamingtempura.github.io/bibtex-tidy/) before continueing the setup.
   - If using BibTex Tidy, just tick the "Merge duplicate entries" box and click on "Tidy"
-- Customize `wbib/wbib.py` with your title of your web page (variables inside the function "render_dashboard").
-- Run `python3 update_dashboard.py yourbibfile.bib`
+
+- Install wbib and run:
+
+```sh
+pip3 install wbib
+python3 update_dashboard.py yourbibfile.bib
+
+```
 - Commit and push everything to GitHub (or just check the newly generated index.html file)
-- Set GitHub Pages on the repository settings on GitHub to the `main` branch 
 
 ## Acknowledgements
 

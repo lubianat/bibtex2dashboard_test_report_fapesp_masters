@@ -1,18 +1,9 @@
 import sys
-from wbib.wbib import render_dashboard
+from wbib import wbib
 import requests
 from pybtex.database.input import bibtex
 from tqdm import tqdm
 import time
-
-# Set functions 
-
-def format_ids(ids):
-    formatted_readings = "{"
-    for i in ids:
-        formatted_readings = formatted_readings + "wd:" + i + " "
-    formatted_readings = formatted_readings + " }"
-    return formatted_readings
 
 def get_qid_for_title(title):
     """
@@ -42,8 +33,7 @@ with open("error_log.txt", "w") as f:
             f.write(f"{title}\n")
         time.sleep(0.3)
 
-formatted_readings = format_ids(list_of_qids)
 with open("index.html", "w") as f:
-    html = render_dashboard(formatted_readings)
+    html = wbib.render_dashboard(list_of_qids)
     f.write(html)
 
